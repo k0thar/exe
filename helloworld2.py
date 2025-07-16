@@ -1,0 +1,10 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on Sat Jul 12 11:55:53 2025
+
+@author: h
+"""
+
+def greet(name):
+    print(f'Hello, {name}!')
