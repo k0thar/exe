@@ -1,0 +1,13 @@
+taqsim <- function (num) {
+  for(i in 1:num){
+    if(num%%i == 0){
+      print(i)
+    }
+  }
+}
+  
+
+yeksad<-function(){return(1:100)}
+
+xx<-c(1:36)
+matr<-matrix(xx[],6,6,TRUE)
