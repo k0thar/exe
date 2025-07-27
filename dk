@@ -1,0 +1,1000 @@
+75        Swimming Bronze
+76        Swimming Bronze
+77         Fencing Silver
+78        Canoeing Bronze
+79        Canoeing   Gold
+80        Canoeing Silver
+81        Swimming Bronze
+82       Wrestling Silver
+83       Athletics   Gold
+84       Athletics Silver
+85       Athletics Bronze
+86      Volleyball Bronze
+87      Volleyball Silver
+88   Speed Skating Bronze
+89      Basketball Bronze
+90      Basketball Bronze
+ [ reached 'max' / getOption("max.print") -- omitted 30091 rows ]
+> da[da$Sex=="F"]
+Error in `[.data.frame`(da, da$Sex == "F") : undefined columns selected
+> da[[da$Sex=="F"]]
+Error in .subset2(x, i, exact = exact) : 
+  attempt to select less than one element in integerOneIndex
+> ?is.na()
+> is."F"(da$Sex)
+Error: unexpected string constant in "is."F""
+> v<-da[da$Sex=="F"]
+Error in `[.data.frame`(da, da$Sex == "F") : undefined columns selected
+> v<-da[da$Sex=="F",]
+> View(v)
+> v[order(da$Age)]
+Error in `[.data.frame`(v, order(da$Age)) : undefined columns selected
+> v[order(da$Age),]
+          ID                                                   Name  Sex Age Height Weight
+13396  62927                            Svetlana Vadimovna Korytova    F  20    185     76
+15266  70487                          Sandra Denise "Sandie" Lister    F  30    164     62
+19213  88499                            Clia Okoyino da Mbabi (-ai)    F  20    173     63
+19215  88526                                         Nozomi Okuhara    F  21    156     51
+19217  88534                                           Fumiko Okuno    F  20    160     49
+22419 103301                 Liubov Ivanivna Rudovska (-Tymofeieva)    F  25    174     73
+24662 112947                             Melitta Sollmann (-Schack)    F  21    170     73
+NA        NA                                                   <NA> <NA>  NA     NA     NA
+NA.1      NA                                                   <NA> <NA>  NA     NA     NA
+NA.2      NA                                                   <NA> <NA>  NA     NA     NA
+1373    7717                      Brbara Micheline do Monte Barbosa    F  20    171     71
+4977   25609                                           Caryn Davies    F  26    193     82
+4978   25609                                           Caryn Davies    F  30    193     82
+4987   25646 Sharron Elizabeth Davies (-Crisp, -Redmond, -Kingston)    F  17    180     67
+6411   32552                     Kornelia Ender (-Matthes, -Grummt)    F  17    172     59
+13017  61434                     Ulrika Margareta Knape (-Lindberg)    F  17    173     60
+13018  61434                     Ulrika Margareta Knape (-Lindberg)    F  21    173     60
+13019  61441                Kathryn Elizabeth "Kay" Knapp (-Norton)    F  18    170     57
+13033  61477                                Christiane Knetsch-Kpke    F  19    181     72
+13034  61477                                Christiane Knetsch-Kpke    F  23    181     72
+18732  86341                                            Elin Nilsen    F  29    168     55
+18734  86347                                        Jeanette Nilsen    F  28    181     78
+19182  88335                                           Sumie Oinuma    F  22    171     60
+20928  96616                                  Caroline Helen Powell    F  39    156     60
+22719 104654                                  Iridia Salazar Blanco    F  22    172     57
+23160 106938                 Melanie Rene "Mel" Schlanger (-Wright)    F  25    176     65
+23161 106938                 Melanie Rene "Mel" Schlanger (-Wright)    F  25    176     65
+25806 118001                                           Aki Takayama    F  22    165     54
+27608 125779                          Sofiya Aleksandrovna Velikaya    F  27    175     70
+NA.3      NA                                                   <NA> <NA>  NA     NA     NA
+NA.4      NA                                                   <NA> <NA>  NA     NA     NA
+NA.5      NA                                                   <NA> <NA>  NA     NA     NA
+NA.6      NA                                                   <NA> <NA>  NA     NA     NA
+NA.7      NA                                                   <NA> <NA>  NA     NA     NA
+NA.8      NA                                                   <NA> <NA>  NA     NA     NA
+NA.9      NA                                                   <NA> <NA>  NA     NA     NA
+NA.10     NA                                                   <NA> <NA>  NA     NA     NA
+NA.11     NA                                                   <NA> <NA>  NA     NA     NA
+NA.12     NA                                                   <NA> <NA>  NA     NA     NA
+NA.13     NA                                                   <NA> <NA>  NA     NA     NA
+NA.14     NA                                                   <NA> <NA>  NA     NA     NA
+NA.15     NA                                                   <NA> <NA>  NA     NA     NA
+NA.16     NA                                                   <NA> <NA>  NA     NA     NA
+NA.17     NA                                                   <NA> <NA>  NA     NA     NA
+NA.18     NA                                                   <NA> <NA>  NA     NA     NA
+NA.19     NA                                                   <NA> <NA>  NA     NA     NA
+NA.20     NA                                                   <NA> <NA>  NA     NA     NA
+NA.21     NA                                                   <NA> <NA>  NA     NA     NA
+NA.22     NA                                                   <NA> <NA>  NA     NA     NA
+NA.23     NA                                                   <NA> <NA>  NA     NA     NA
+NA.24     NA                                                   <NA> <NA>  NA     NA     NA
+NA.25     NA                                                   <NA> <NA>  NA     NA     NA
+NA.26     NA                                                   <NA> <NA>  NA     NA     NA
+NA.27     NA                                                   <NA> <NA>  NA     NA     NA
+NA.28     NA                                                   <NA> <NA>  NA     NA     NA
+NA.29     NA                                                   <NA> <NA>  NA     NA     NA
+NA.30     NA                                                   <NA> <NA>  NA     NA     NA
+NA.31     NA                                                   <NA> <NA>  NA     NA     NA
+NA.32     NA                                                   <NA> <NA>  NA     NA     NA
+NA.33     NA                                                   <NA> <NA>  NA     NA     NA
+NA.34     NA                                                   <NA> <NA>  NA     NA     NA
+NA.35     NA                                                   <NA> <NA>  NA     NA     NA
+NA.36     NA                                                   <NA> <NA>  NA     NA     NA
+1411    7920              Valrie Gisele Angele Barlois-Mevel-Leroux    F  27    165     53
+3529   17755                        Veronica Angella Campbell-Brown    F  26    168     58
+3530   17755                        Veronica Angella Campbell-Brown    F  30    168     58
+3531   17755                        Veronica Angella Campbell-Brown    F  30    168     58
+3532   17755                        Veronica Angella Campbell-Brown    F  34    168     58
+5374   27940                      Yolanda Gail L. Devers (-Roberts)    F  25    160     55
+5375   27940                      Yolanda Gail L. Devers (-Roberts)    F  29    160     55
+5596   28766                                 Constantina Di-Tomescu    F  38    160     48
+5620   28820                                 Diamond Brittany Dixon    F  20    168     51
+5621   28821                             Diane Lynn Dixon (-Trouse)    F  19    165     54
+6246   31542                                            Ayano Egami    F  20    170     58
+6560   33269                                         Roswitha Esser    F  23    167     67
+7329   36746                                            Antje Frank    F  24    181     76
+7331   36754                             Jacqueline Frank (-DeLuca)    F  24    180     72
+7332   36763                                     Tanja Chiara Frank    F  23    167     57
+7339   36785                      Melissa Jeanette "Missy" Franklin    F  17    188     77
+8092   40139                                 Gemma Jeanette Gibbons    F  25    173     70
+8095   40165                            Cheryl Ann Gibson (-Brokop)    F  16    173     59
+8758   43102                                Mariya Igorevna Gromova    F  28    172     61
+9651   46999                                     Tobin Powell Heath    F  24    168     59
+10075  48799                                            Megu Hirose    F  27    157     63
+11034  53129                               Lauren Elizabeth Jackson    F  23    196     85
+11568  55460                                          Sonja Johnson    F  40    162     60
+11578  55488                                   Sheena Johnson-Tosta    F  25    165     57
+12446  59380                           Svetlana Vasilyevna Khorkina    F  17    165     47
+12547  59787                                           Kim Cha-Yeon    F  23    173     67
+12548  59787                                           Kim Cha-Yeon    F  27    173     67
+               Team Year Season                 Sport  Medal
+13396  Soviet Union 1988 Summer            Volleyball   Gold
+15266 Great Britain 1992 Summer                Hockey Bronze
+19213       Germany 2008 Summer              Football Bronze
+19215         Japan 2016 Summer             Badminton Bronze
+19217         Japan 1992 Summer Synchronized Swimming Bronze
+22419  Soviet Union 1976 Summer            Volleyball Silver
+24662  East Germany 1980 Winter                  Luge Silver
+NA             <NA>   NA   <NA>                  <NA>   <NA>
+NA.1           <NA>   NA   <NA>                  <NA>   <NA>
+NA.2           <NA>   NA   <NA>                  <NA>   <NA>
+1373         Brazil 2008 Summer              Football Silver
+4977  United States 2008 Summer                Rowing   Gold
+4978  United States 2012 Summer                Rowing   Gold
+4987  Great Britain 1980 Summer              Swimming Silver
+6411   East Germany 1976 Summer              Swimming Silver
+13017        Sweden 1972 Summer                Diving   Gold
+13018        Sweden 1976 Summer                Diving Silver
+13019 United States 1956 Summer              Swimming Silver
+13033  East Germany 1976 Summer                Rowing   Gold
+13034  East Germany 1980 Summer                Rowing   Gold
+18732        Norway 1998 Winter  Cross Country Skiing Silver
+18734        Norway 2000 Summer              Handball Bronze
+19182         Japan 1968 Summer            Volleyball Silver
+20928   New Zealand 2012 Summer         Equestrianism Bronze
+22719        Mexico 2004 Summer             Taekwondo Bronze
+23160     Australia 2012 Summer              Swimming   Gold
+23161     Australia 2012 Summer              Swimming Silver
+25806         Japan 1992 Summer Synchronized Swimming Bronze
+27608        Russia 2012 Summer               Fencing Silver
+NA.3           <NA>   NA   <NA>                  <NA>   <NA>
+NA.4           <NA>   NA   <NA>                  <NA>   <NA>
+NA.5           <NA>   NA   <NA>                  <NA>   <NA>
+NA.6           <NA>   NA   <NA>                  <NA>   <NA>
+NA.7           <NA>   NA   <NA>                  <NA>   <NA>
+NA.8           <NA>   NA   <NA>                  <NA>   <NA>
+NA.9           <NA>   NA   <NA>                  <NA>   <NA>
+NA.10          <NA>   NA   <NA>                  <NA>   <NA>
+NA.11          <NA>   NA   <NA>                  <NA>   <NA>
+NA.12          <NA>   NA   <NA>                  <NA>   <NA>
+NA.13          <NA>   NA   <NA>                  <NA>   <NA>
+NA.14          <NA>   NA   <NA>                  <NA>   <NA>
+NA.15          <NA>   NA   <NA>                  <NA>   <NA>
+NA.16          <NA>   NA   <NA>                  <NA>   <NA>
+NA.17          <NA>   NA   <NA>                  <NA>   <NA>
+NA.18          <NA>   NA   <NA>                  <NA>   <NA>
+NA.19          <NA>   NA   <NA>                  <NA>   <NA>
+NA.20          <NA>   NA   <NA>                  <NA>   <NA>
+NA.21          <NA>   NA   <NA>                  <NA>   <NA>
+NA.22          <NA>   NA   <NA>                  <NA>   <NA>
+NA.23          <NA>   NA   <NA>                  <NA>   <NA>
+NA.24          <NA>   NA   <NA>                  <NA>   <NA>
+NA.25          <NA>   NA   <NA>                  <NA>   <NA>
+NA.26          <NA>   NA   <NA>                  <NA>   <NA>
+NA.27          <NA>   NA   <NA>                  <NA>   <NA>
+NA.28          <NA>   NA   <NA>                  <NA>   <NA>
+NA.29          <NA>   NA   <NA>                  <NA>   <NA>
+NA.30          <NA>   NA   <NA>                  <NA>   <NA>
+NA.31          <NA>   NA   <NA>                  <NA>   <NA>
+NA.32          <NA>   NA   <NA>                  <NA>   <NA>
+NA.33          <NA>   NA   <NA>                  <NA>   <NA>
+NA.34          <NA>   NA   <NA>                  <NA>   <NA>
+NA.35          <NA>   NA   <NA>                  <NA>   <NA>
+NA.36          <NA>   NA   <NA>                  <NA>   <NA>
+1411         France 1996 Summer               Fencing Silver
+3529        Jamaica 2008 Summer             Athletics   Gold
+3530        Jamaica 2012 Summer             Athletics Bronze
+3531        Jamaica 2012 Summer             Athletics Silver
+3532        Jamaica 2016 Summer             Athletics Silver
+5374  United States 1992 Summer             Athletics   Gold
+5375  United States 1996 Summer             Athletics   Gold
+5596        Romania 2008 Summer             Athletics   Gold
+5620  United States 2012 Summer             Athletics   Gold
+5621  United States 1984 Summer             Athletics   Gold
+6246          Japan 2000 Summer Synchronized Swimming Silver
+6560        Germany 1964 Summer              Canoeing   Gold
+7329        Germany 1992 Summer                Rowing Bronze
+7331  United States 2004 Summer            Water Polo Bronze
+7332        Austria 2016 Summer               Sailing Bronze
+7339  United States 2012 Summer              Swimming Bronze
+8092  Great Britain 2012 Summer                  Judo Silver
+8095         Canada 1976 Summer              Swimming Silver
+8758         Russia 2012 Summer Synchronized Swimming   Gold
+9651  United States 2012 Summer              Football   Gold
+10075         Japan 2008 Summer              Softball   Gold
+11034     Australia 2004 Summer            Basketball Silver
+11568     Australia 2008 Summer         Equestrianism Silver
+11578 United States 2008 Summer             Athletics Silver
+12446        Russia 1996 Summer            Gymnastics Silver
+12547   South Korea 2004 Summer              Handball Silver
+12548   South Korea 2008 Summer              Handball Bronze
+ [ reached 'max' / getOption("max.print") -- omitted 30091 rows ]
+> View(v)
+> v<-v[order(da$Age),]
+> View(v)
+> v[!is.na(v),]
+          ID                                                   Name Sex Age Height Weight
+13396  62927                            Svetlana Vadimovna Korytova   F  20    185   76.0
+15266  70487                          Sandra Denise "Sandie" Lister   F  30    164   62.0
+19213  88499                            Clia Okoyino da Mbabi (-ai)   F  20    173   63.0
+19215  88526                                         Nozomi Okuhara   F  21    156   51.0
+19217  88534                                           Fumiko Okuno   F  20    160   49.0
+22419 103301                 Liubov Ivanivna Rudovska (-Tymofeieva)   F  25    174   73.0
+24662 112947                             Melitta Sollmann (-Schack)   F  21    170   73.0
+1373    7717                      Brbara Micheline do Monte Barbosa   F  20    171   71.0
+4977   25609                                           Caryn Davies   F  26    193   82.0
+4978   25609                                           Caryn Davies   F  30    193   82.0
+4987   25646 Sharron Elizabeth Davies (-Crisp, -Redmond, -Kingston)   F  17    180   67.0
+6411   32552                     Kornelia Ender (-Matthes, -Grummt)   F  17    172   59.0
+13017  61434                     Ulrika Margareta Knape (-Lindberg)   F  17    173   60.0
+13018  61434                     Ulrika Margareta Knape (-Lindberg)   F  21    173   60.0
+13019  61441                Kathryn Elizabeth "Kay" Knapp (-Norton)   F  18    170   57.0
+13033  61477                                Christiane Knetsch-Kpke   F  19    181   72.0
+13034  61477                                Christiane Knetsch-Kpke   F  23    181   72.0
+18732  86341                                            Elin Nilsen   F  29    168   55.0
+18734  86347                                        Jeanette Nilsen   F  28    181   78.0
+19182  88335                                           Sumie Oinuma   F  22    171   60.0
+20928  96616                                  Caroline Helen Powell   F  39    156   60.0
+22719 104654                                  Iridia Salazar Blanco   F  22    172   57.0
+23160 106938                 Melanie Rene "Mel" Schlanger (-Wright)   F  25    176   65.0
+23161 106938                 Melanie Rene "Mel" Schlanger (-Wright)   F  25    176   65.0
+25806 118001                                           Aki Takayama   F  22    165   54.0
+27608 125779                          Sofiya Aleksandrovna Velikaya   F  27    175   70.0
+1411    7920              Valrie Gisele Angele Barlois-Mevel-Leroux   F  27    165   53.0
+3529   17755                        Veronica Angella Campbell-Brown   F  26    168   58.0
+3530   17755                        Veronica Angella Campbell-Brown   F  30    168   58.0
+3531   17755                        Veronica Angella Campbell-Brown   F  30    168   58.0
+3532   17755                        Veronica Angella Campbell-Brown   F  34    168   58.0
+5374   27940                      Yolanda Gail L. Devers (-Roberts)   F  25    160   55.0
+5375   27940                      Yolanda Gail L. Devers (-Roberts)   F  29    160   55.0
+5596   28766                                 Constantina Di-Tomescu   F  38    160   48.0
+5620   28820                                 Diamond Brittany Dixon   F  20    168   51.0
+5621   28821                             Diane Lynn Dixon (-Trouse)   F  19    165   54.0
+6246   31542                                            Ayano Egami   F  20    170   58.0
+6560   33269                                         Roswitha Esser   F  23    167   67.0
+7329   36746                                            Antje Frank   F  24    181   76.0
+7331   36754                             Jacqueline Frank (-DeLuca)   F  24    180   72.0
+7332   36763                                     Tanja Chiara Frank   F  23    167   57.0
+7339   36785                      Melissa Jeanette "Missy" Franklin   F  17    188   77.0
+8092   40139                                 Gemma Jeanette Gibbons   F  25    173   70.0
+8095   40165                            Cheryl Ann Gibson (-Brokop)   F  16    173   59.0
+8758   43102                                Mariya Igorevna Gromova   F  28    172   61.0
+9651   46999                                     Tobin Powell Heath   F  24    168   59.0
+10075  48799                                            Megu Hirose   F  27    157   63.0
+11034  53129                               Lauren Elizabeth Jackson   F  23    196   85.0
+11568  55460                                          Sonja Johnson   F  40    162   60.0
+11578  55488                                   Sheena Johnson-Tosta   F  25    165   57.0
+12446  59380                           Svetlana Vasilyevna Khorkina   F  17    165   47.0
+12547  59787                                           Kim Cha-Yeon   F  23    173   67.0
+12548  59787                                           Kim Cha-Yeon   F  27    173   67.0
+13148  62059                                          Yukiyo Kojima   F  22    168   60.0
+14235  66156                              Nathalie Brigitte Lambert   F  30    170   65.0
+15021  69476                                             Li Ronghua   F  31    152   43.0
+15305  70674                                              Liu Yanan   F  23    186   73.0
+16931  77984                             Andrea Bario Mead-Lawrence   F  19    173   59.0
+16995  78267                       Catherine Michelle "Katie" Meili   F  25    170   61.0
+17503  80515             Rosemarie "Rosi" Mittermaier (-Neureuther)   F  25    159   55.0
+18023  83258                               Kirsten Mnchow (-Klose-)   F  23    172   75.0
+18163  83864                                  Paula Jean Myers-Pope   F  17    162   51.0
+18399  84941                                       Emmeline Ndongue   F  29    192   82.0
+18814  86753                                         Mizuki Noguchi   F  26    150   40.0
+18849  86959                                        Kirstin Normand   F  26    172   68.0
+19438  89671                                       Sonia O'Sullivan   F  30    175   55.0
+21518  99470                         Heike Redetzky-Henkel (-Meier)   F  28    181   62.0
+21760 100552                                  Passion J. Richardson   F  25    155   51.0
+22875 105439                                               Sang Xue   F  16    157   42.0
+24517 112322                            Katherine May "Katie" Smith   F  34    180   79.0
+24566 112507                                Yelena Yuryevna Smurova   F  26    166   60.0
+24567 112510                 Elizabeth Marie "Liz" Smylie (Sayers-)   F  25    166   58.0
+24576 112529             Patricia Rosemary "Pat" Smythe (-Koechlin)   F  27    170   67.0
+24577 112537                                      Liisa-Maria Sneck   F  29    167   75.5
+24579 112541                                     Belinda Rose Snell   F  27    180   80.0
+24580 112541                                     Belinda Rose Snell   F  31    180   80.0
+25309 115768                 Shirley Barbara Strickland de la Hunty   F  31    172   57.0
+25310 115768                 Shirley Barbara Strickland de la Hunty   F  31    172   57.0
+25312 115777                       Hilda Gwendolyn Strike (-Sisson)   F  21    159   48.0
+25313 115777                       Hilda Gwendolyn Strike (-Sisson)   F  21    159   48.0
+25314 115779                       Simona Dumitria Strimbeschi-Muat   F  26    183   80.0
+25959 118565                               Nelli Yurivna Tarakanova   F  21    184   92.0
+26617 121172                          Nadezhda Viktorovna Torlopova   F  33    175   75.0
+26924 122541                                               Ruby Tui   F  24    177   71.0
+27894 127172                                           Sabine Vlker   F  28    162   58.0
+27895 127172                                           Sabine Vlker   F  28    162   58.0
+28545 129570                                           Miriam Welte   F  25    171   67.0
+28890 130707                         Novlene Hilaire Williams-Mills   F  22    168   57.0
+29128 131685                               Belinda Wright (-Barnes)   F  27    170   63.0
+29361 132561                                              Yang Yang   F  29    166   58.0
+               Team Year Season                     Sport  Medal
+13396  Soviet Union 1988 Summer                Volleyball   Gold
+15266 Great Britain 1992 Summer                    Hockey Bronze
+19213       Germany 2008 Summer                  Football Bronze
+19215         Japan 2016 Summer                 Badminton Bronze
+19217         Japan 1992 Summer     Synchronized Swimming Bronze
+22419  Soviet Union 1976 Summer                Volleyball Silver
+24662  East Germany 1980 Winter                      Luge Silver
+1373         Brazil 2008 Summer                  Football Silver
+4977  United States 2008 Summer                    Rowing   Gold
+4978  United States 2012 Summer                    Rowing   Gold
+4987  Great Britain 1980 Summer                  Swimming Silver
+6411   East Germany 1976 Summer                  Swimming Silver
+13017        Sweden 1972 Summer                    Diving   Gold
+13018        Sweden 1976 Summer                    Diving Silver
+13019 United States 1956 Summer                  Swimming Silver
+13033  East Germany 1976 Summer                    Rowing   Gold
+13034  East Germany 1980 Summer                    Rowing   Gold
+18732        Norway 1998 Winter      Cross Country Skiing Silver
+18734        Norway 2000 Summer                  Handball Bronze
+19182         Japan 1968 Summer                Volleyball Silver
+20928   New Zealand 2012 Summer             Equestrianism Bronze
+22719        Mexico 2004 Summer                 Taekwondo Bronze
+23160     Australia 2012 Summer                  Swimming   Gold
+23161     Australia 2012 Summer                  Swimming Silver
+25806         Japan 1992 Summer     Synchronized Swimming Bronze
+27608        Russia 2012 Summer                   Fencing Silver
+1411         France 1996 Summer                   Fencing Silver
+3529        Jamaica 2008 Summer                 Athletics   Gold
+3530        Jamaica 2012 Summer                 Athletics Bronze
+3531        Jamaica 2012 Summer                 Athletics Silver
+3532        Jamaica 2016 Summer                 Athletics Silver
+5374  United States 1992 Summer                 Athletics   Gold
+5375  United States 1996 Summer                 Athletics   Gold
+5596        Romania 2008 Summer                 Athletics   Gold
+5620  United States 2012 Summer                 Athletics   Gold
+5621  United States 1984 Summer                 Athletics   Gold
+6246          Japan 2000 Summer     Synchronized Swimming Silver
+6560        Germany 1964 Summer                  Canoeing   Gold
+7329        Germany 1992 Summer                    Rowing Bronze
+7331  United States 2004 Summer                Water Polo Bronze
+7332        Austria 2016 Summer                   Sailing Bronze
+7339  United States 2012 Summer                  Swimming Bronze
+8092  Great Britain 2012 Summer                      Judo Silver
+8095         Canada 1976 Summer                  Swimming Silver
+8758         Russia 2012 Summer     Synchronized Swimming   Gold
+9651  United States 2012 Summer                  Football   Gold
+10075         Japan 2008 Summer                  Softball   Gold
+11034     Australia 2004 Summer                Basketball Silver
+11568     Australia 2008 Summer             Equestrianism Silver
+11578 United States 2008 Summer                 Athletics Silver
+12446        Russia 1996 Summer                Gymnastics Silver
+12547   South Korea 2004 Summer                  Handball Silver
+12548   South Korea 2008 Summer                  Handball Bronze
+13148         Japan 1968 Summer                Volleyball Silver
+14235        Canada 1994 Winter Short Track Speed Skating Silver
+15021         China 1988 Summer                    Rowing Silver
+15305         China 2004 Summer                Volleyball   Gold
+16931 United States 1952 Winter             Alpine Skiing   Gold
+16995 United States 2016 Summer                  Swimming Bronze
+17503  West Germany 1976 Winter             Alpine Skiing   Gold
+18023       Germany 2000 Summer                 Athletics Bronze
+18163 United States 1952 Summer                    Diving Silver
+18399        France 2012 Summer                Basketball Silver
+18814         Japan 2004 Summer                 Athletics   Gold
+18849        Canada 2000 Summer     Synchronized Swimming Bronze
+19438       Ireland 2000 Summer                 Athletics Silver
+21518       Germany 1992 Summer                 Athletics   Gold
+21760 United States 2000 Summer                 Athletics Bronze
+22875         China 2000 Summer                    Diving   Gold
+24517 United States 2008 Summer                Basketball   Gold
+24566        Russia 2000 Summer                Water Polo Bronze
+24567     Australia 1988 Summer                    Tennis Bronze
+24576 Great Britain 1956 Summer             Equestrianism Bronze
+24577       Finland 1998 Winter                Ice Hockey Bronze
+24579     Australia 2008 Summer                Basketball Silver
+24580     Australia 2012 Summer                Basketball Bronze
+25309     Australia 1956 Summer                 Athletics   Gold
+25310     Australia 1956 Summer                 Athletics   Gold
+25312        Canada 1932 Summer                 Athletics Silver
+25313        Canada 1932 Summer                 Athletics Silver
+25314       Romania 2008 Summer                    Rowing Bronze
+25959  Soviet Union 1976 Summer                    Rowing Silver
+26617        Russia 2012 Summer                    Boxing Silver
+26924   New Zealand 2016 Summer              Rugby Sevens Silver
+27894       Germany 2002 Winter             Speed Skating Silver
+27895       Germany 2002 Winter             Speed Skating Silver
+28545       Germany 2012 Summer                   Cycling   Gold
+28890       Jamaica 2004 Summer                 Athletics Bronze
+29128     Australia 2008 Summer                  Softball Bronze
+29361         China 2006 Winter Short Track Speed Skating Bronze
+ [ reached 'max' / getOption("max.print") -- omitted 113760 rows ]
+> v[order(da$"Age"),]
+             ID                                                          Name  Sex Age Height
+14253     66233                                     Jocelyne Nicole Lamoureux    F  24    168
+NA.2948      NA                                                          <NA> <NA>  NA     NA
+5653      28978                      Marina Viktorovna Dobrancheva-Logvinenko    F  27    154
+5658      28980                             Erin Patricia Dobratz (-McGregor)    F  21    167
+5681      29052                                                Sophie Dodmont    F  34    173
+NA.4449      NA                                                          <NA> <NA>  NA     NA
+NA.5213      NA                                                          <NA> <NA>  NA     NA
+NA.7800      NA                                                          <NA> <NA>  NA     NA
+NA.12019     NA                                                          <NA> <NA>  NA     NA
+NA.19595     NA                                                          <NA> <NA>  NA     NA
+NA.251       NA                                                          <NA> <NA>  NA     NA
+9046      44255                                       Elisabeta Guzganu-Tufan    F  27    160
+9146      44724                                                Jamie Hagerman    F  24    175
+9250      45218                                    Sharon Hambrook (-Boreyko)    F  21    159
+NA.1274      NA                                                          <NA> <NA>  NA     NA
+9838      47643                                    Jan Margo Henne (-Hawkins)    F  21    170
+9870      47749                                             Jodie Clare Henry    F  20    176
+9876      47783                       Franziska Constanze Hentschel (-Sanner)    F  22    170
+9879      47807                                                 Heo Sun-Yeong    F  20    180
+9946      48268                                        Veronika Hesse-Schmidt    F  23    160
+NA.4056      NA                                                          <NA> <NA>  NA     NA
+NA.4057      NA                                                          <NA> <NA>  NA     NA
+5095      26159                                     Annemiek Nicolien de Haan    F  23    187
+26903    122446                                    Olena Leonidivna Tsyhytsia    F  29    180
+NA.4555      NA                                                          <NA> <NA>  NA     NA
+NA.4694      NA                                                          <NA> <NA>  NA     NA
+NA.4695      NA                                                          <NA> <NA>  NA     NA
+NA.5623      NA                                                          <NA> <NA>  NA     NA
+15869     73132                            Michelle A. MacPherson (-Hojnacki)    F  18    163
+NA.6985      NA                                                          <NA> <NA>  NA     NA
+NA.8299      NA                                                          <NA> <NA>  NA     NA
+NA.10609     NA                                                          <NA> <NA>  NA     NA
+7771      38480                                     Monique Garbrecht-Enfeldt    F  23    168
+29325    132485                                                   Yang Fangxu    F  21    190
+NA.11153     NA                                                          <NA> <NA>  NA     NA
+NA.11195     NA                                                          <NA> <NA>  NA     NA
+NA.12197     NA                                                          <NA> <NA>  NA     NA
+26951    122690                     Zinada Mykhailivna Turchyna (Stolitenko-)    F  30    180
+NA.12593     NA                                                          <NA> <NA>  NA     NA
+NA.12594     NA                                                          <NA> <NA>  NA     NA
+NA.12595     NA                                                          <NA> <NA>  NA     NA
+NA.12706     NA                                                          <NA> <NA>  NA     NA
+NA.12707     NA                                                          <NA> <NA>  NA     NA
+NA.12708     NA                                                          <NA> <NA>  NA     NA
+NA.12709     NA                                                          <NA> <NA>  NA     NA
+377        2575                                                Lisa Alexander    F  27    172
+9096      44487                                                   Mandy Haase    F  22    164
+NA.14532     NA                                                          <NA> <NA>  NA     NA
+NA.14533     NA                                                          <NA> <NA>  NA     NA
+NA.16006     NA                                                          <NA> <NA>  NA     NA
+NA.16368     NA                                                          <NA> <NA>  NA     NA
+26267    119922               Jennifer Elisabeth "Jenny" Thompson (-Cumpelik)    F  19    177
+29589    133424                                                Yue Qingshuang    F  24    167
+29615    133547                           Zoya Fyodorovna Yusova (Kosacheva-)    F  28    171
+29626    133591                                  Aleksandra Ivanovna Zabelina    F  31    157
+29769    134154                         Olga Alekseyevna Zaytseva (-Augustin)    F  35    168
+NA.17778     NA                                                          <NA> <NA>  NA     NA
+NA.18630     NA                                                          <NA> <NA>  NA     NA
+NA.18631     NA                                                          <NA> <NA>  NA     NA
+NA.18749     NA                                                          <NA> <NA>  NA     NA
+NA.19075     NA                                                          <NA> <NA>  NA     NA
+NA.19076     NA                                                          <NA> <NA>  NA     NA
+NA.19162     NA                                                          <NA> <NA>  NA     NA
+NA.261       NA                                                          <NA> <NA>  NA     NA
+NA.596       NA                                                          <NA> <NA>  NA     NA
+NA.597       NA                                                          <NA> <NA>  NA     NA
+NA.598       NA                                                          <NA> <NA>  NA     NA
+NA.599       NA                                                          <NA> <NA>  NA     NA
+21529     99516                                   Jennie Idell Reed (-Madden)    F  34    170
+21600     99869                                         Ildik Rejt-Ujlaky-Sgi    F  35    164
+28891    130707                                Novlene Hilaire Williams-Mills    F  26    168
+28957    130969                                       Mary Wineberg (Danner-)    F  28    178
+29226    132023                                                   Xie Xingfan    F  27    178
+NA.1214      NA                                                          <NA> <NA>  NA     NA
+NA.1327      NA                                                          <NA> <NA>  NA     NA
+NA.1601      NA                                                          <NA> <NA>  NA     NA
+NA.1602      NA                                                          <NA> <NA>  NA     NA
+NA.1603      NA                                                          <NA> <NA>  NA     NA
+NA.1604      NA                                                          <NA> <NA>  NA     NA
+8596      42417                             Ann-Mary Gwynne Grant (Fletcher-)    F  25    170
+8682      42871                                       Yolanda Yvette Griffith    F  30    193
+22911    105779          Inessa Yevgenyevna Sargsyan (Yemelyanova-, -Korkmaz)    F  28    190
+NA.1845      NA                                                          <NA> <NA>  NA     NA
+NA.1990      NA                                                          <NA> <NA>  NA     NA
+NA.2338      NA                                                          <NA> <NA>  NA     NA
+NA.2509      NA                                                          <NA> <NA>  NA     NA
+NA.2510      NA                                                          <NA> <NA>  NA     NA
+2520      12970 Maria Yolande Caroline Gertrude "Marjolein" Bolhuis-Eijsvogel    F  27    168
+4531      23426                                 Natalie Anne Coughlin (-Hall)    F  25    173
+4560      23549                               Kirsty Leigh Coventry (-Seward)    F  20    176
+         Weight          Team Year Season                 Sport  Medal
+14253        70 United States 2014 Winter            Ice Hockey Silver
+NA.2948      NA          <NA>   NA   <NA>                  <NA>   <NA>
+5653         63  Soviet Union 1988 Summer              Shooting Bronze
+5658         63 United States 2004 Summer Synchronized Swimming Bronze
+5681         86        France 2008 Summer               Archery Bronze
+NA.4449      NA          <NA>   NA   <NA>                  <NA>   <NA>
+NA.5213      NA          <NA>   NA   <NA>                  <NA>   <NA>
+NA.7800      NA          <NA>   NA   <NA>                  <NA>   <NA>
+NA.12019     NA          <NA>   NA   <NA>                  <NA>   <NA>
+NA.19595     NA          <NA>   NA   <NA>                  <NA>   <NA>
+NA.251       NA          <NA>   NA   <NA>                  <NA>   <NA>
+9046         54       Romania 1992 Summer               Fencing Bronze
+9146         77 United States 2006 Winter            Ice Hockey Bronze
+9250         52        Canada 1984 Summer Synchronized Swimming Silver
+NA.1274      NA          <NA>   NA   <NA>                  <NA>   <NA>
+9838         64 United States 1968 Summer              Swimming Silver
+9870         63     Australia 2004 Summer              Swimming   Gold
+9876         70       Germany 1992 Summer                Hockey Silver
+9879         71   South Korea 1996 Summer              Handball Silver
+9946         55  East Germany 1976 Winter  Cross Country Skiing Bronze
+NA.4056      NA          <NA>   NA   <NA>                  <NA>   <NA>
+NA.4057      NA          <NA>   NA   <NA>                  <NA>   <NA>
+5095         70   Netherlands 2004 Summer                Rowing Bronze
+26903        70       Ukraine 2004 Summer              Handball Bronze
+NA.4555      NA          <NA>   NA   <NA>                  <NA>   <NA>
+NA.4694      NA          <NA>   NA   <NA>                  <NA>   <NA>
+NA.4695      NA          <NA>   NA   <NA>                  <NA>   <NA>
+NA.5623      NA          <NA>   NA   <NA>                  <NA>   <NA>
+15869        50        Canada 1984 Summer              Swimming Bronze
+NA.6985      NA          <NA>   NA   <NA>                  <NA>   <NA>
+NA.8299      NA          <NA>   NA   <NA>                  <NA>   <NA>
+NA.10609     NA          <NA>   NA   <NA>                  <NA>   <NA>
+7771         63       Germany 1992 Winter         Speed Skating Bronze
+29325        71         China 2016 Summer            Volleyball   Gold
+NA.11153     NA          <NA>   NA   <NA>                  <NA>   <NA>
+NA.11195     NA          <NA>   NA   <NA>                  <NA>   <NA>
+NA.12197     NA          <NA>   NA   <NA>                  <NA>   <NA>
+26951        73  Soviet Union 1976 Summer              Handball   Gold
+NA.12593     NA          <NA>   NA   <NA>                  <NA>   <NA>
+NA.12594     NA          <NA>   NA   <NA>                  <NA>   <NA>
+NA.12595     NA          <NA>   NA   <NA>                  <NA>   <NA>
+NA.12706     NA          <NA>   NA   <NA>                  <NA>   <NA>
+NA.12707     NA          <NA>   NA   <NA>                  <NA>   <NA>
+NA.12708     NA          <NA>   NA   <NA>                  <NA>   <NA>
+NA.12709     NA          <NA>   NA   <NA>                  <NA>   <NA>
+377          58        Canada 1996 Summer Synchronized Swimming Silver
+9096         58       Germany 2004 Summer                Hockey   Gold
+NA.14532     NA          <NA>   NA   <NA>                  <NA>   <NA>
+NA.14533     NA          <NA>   NA   <NA>                  <NA>   <NA>
+NA.16006     NA          <NA>   NA   <NA>                  <NA>   <NA>
+NA.16368     NA          <NA>   NA   <NA>                  <NA>   <NA>
+26267        69 United States 1992 Summer              Swimming   Gold
+29589        65         China 2010 Winter               Curling Bronze
+29615        67  Soviet Union 1976 Summer            Volleyball Silver
+29626        58  Soviet Union 1968 Summer               Fencing   Gold
+29769        66        Russia 2014 Winter              Biathlon Silver
+NA.17778     NA          <NA>   NA   <NA>                  <NA>   <NA>
+NA.18630     NA          <NA>   NA   <NA>                  <NA>   <NA>
+NA.18631     NA          <NA>   NA   <NA>                  <NA>   <NA>
+NA.18749     NA          <NA>   NA   <NA>                  <NA>   <NA>
+NA.19075     NA          <NA>   NA   <NA>                  <NA>   <NA>
+NA.19076     NA          <NA>   NA   <NA>                  <NA>   <NA>
+NA.19162     NA          <NA>   NA   <NA>                  <NA>   <NA>
+NA.261       NA          <NA>   NA   <NA>                  <NA>   <NA>
+NA.596       NA          <NA>   NA   <NA>                  <NA>   <NA>
+NA.597       NA          <NA>   NA   <NA>                  <NA>   <NA>
+NA.598       NA          <NA>   NA   <NA>                  <NA>   <NA>
+NA.599       NA          <NA>   NA   <NA>                  <NA>   <NA>
+21529        77 United States 2012 Summer               Cycling Silver
+21600        56       Hungary 1972 Summer               Fencing Silver
+28891        57       Jamaica 2008 Summer             Athletics Bronze
+28957        62 United States 2008 Summer             Athletics   Gold
+29226        60         China 2008 Summer             Badminton Silver
+NA.1214      NA          <NA>   NA   <NA>                  <NA>   <NA>
+NA.1327      NA          <NA>   NA   <NA>                  <NA>   <NA>
+NA.1601      NA          <NA>   NA   <NA>                  <NA>   <NA>
+NA.1602      NA          <NA>   NA   <NA>                  <NA>   <NA>
+NA.1603      NA          <NA>   NA   <NA>                  <NA>   <NA>
+NA.1604      NA          <NA>   NA   <NA>                  <NA>   <NA>
+8596         66      Zimbabwe 1980 Summer                Hockey   Gold
+8682         81 United States 2000 Summer            Basketball   Gold
+22911        75        Russia 2000 Summer            Volleyball Silver
+NA.1845      NA          <NA>   NA   <NA>                  <NA>   <NA>
+NA.1990      NA          <NA>   NA   <NA>                  <NA>   <NA>
+NA.2338      NA          <NA>   NA   <NA>                  <NA>   <NA>
+NA.2509      NA          <NA>   NA   <NA>                  <NA>   <NA>
+NA.2510      NA          <NA>   NA   <NA>                  <NA>   <NA>
+2520         63   Netherlands 1988 Summer                Hockey Bronze
+4531         63 United States 2008 Summer              Swimming Silver
+4560         64      Zimbabwe 2004 Summer              Swimming Silver
+ [ reached 'max' / getOption("max.print") -- omitted 30091 rows ]
+> v<-v[!is.na(v),]
+>                                                                                                                       v<-v[order(da$"Age"),]
+>                                                                                                                       v<-v[!is.na(v),]
+> sample(v,10)
+                                                 Name            Team Age                 Sport
+17607                           Marcela Moldovan-Zsak         Romania  28               Fencing
+9792                              Deon Marie Hemmings         Jamaica  27             Athletics
+24556          Nina Nikolayevna Smoleyeva (-Nikitina)    Soviet Union  20            Volleyball
+24704                                     Song Xiaobo           China  25            Basketball
+24718                             Jana Sorgers (-Rau)         Germany  28                Rowing
+8497                                      Daniela Gtz         Germany  16              Swimming
+16204                      Gyuzel Tagirovna Manyurova      Kazakhstan  38             Wrestling
+15468                      Anita Lonsbrough (-Porter)   Great Britain  19              Swimming
+10356                                    Kate Hornsey       Australia  30                Rowing
+10540                        Miloslava Hbnerov-Rezkov  Czechoslovakia  18             Athletics
+10562                                    Clara Hughes          Canada  29         Speed Skating
+28590                              Stefani Werremeier         Germany  23                Rowing
+12363                      Irina Sergeyevna Khabarova          Russia  38             Athletics
+12494                                       Ki Bo-Bae     South Korea  28               Archery
+12514                                    Marina Kiehl    West Germany  23         Alpine Skiing
+12611                                      Kim Mi-Suk     South Korea  26              Handball
+12613                                      Kim Mu-Gyo   South Korea-1  25          Table Tennis
+18799                                  Angelika Noack    East Germany  29                Rowing
+18903              Yelena Dmitriyevna Novikova-Belova    Soviet Union  21               Fencing
+24176                    Juliene Simpson (Brazinski-)   United States  23            Basketball
+16870                                     Emma McKeon       Australia  22              Swimming
+14531                            Kirsti Lay (-Giroux)          Canada  28               Cycling
+20725                        Andrea Pollack (-Pinske)    East Germany  15              Swimming
+20896                                Gabriela Potorac         Romania  15            Gymnastics
+10664                          Flora Jean "Flo" Hyman   United States  29            Volleyball
+5080                                   Inge de Bruijn     Netherlands  27              Swimming
+17583                Anita Moen-Guidon (-Moen Bonden)          Norway  34  Cross Country Skiing
+15172                             Ylva Maria Lindberg          Sweden  25            Ice Hockey
+15197                            Gillian Anne Lindsay   Great Britain  26                Rowing
+15213                                   Renate Lingor         Germany  28              Football
+15229 Liselott Linsenhoff (Schindling-, -Rheinberger)         Germany  28         Equestrianism
+14887                               Joanna Leszczyska          Poland  27                Rowing
+14888                                 Fanny Ltourneau          Canada  21 Synchronized Swimming
+17481                           Michele Anne Mitchell   United States  22                Diving
+17501                                     Anja Mittag         Germany  23              Football
+17594                 Lourdes Mohedano Snchez de Mora           Spain  21   Rhythmic Gymnastics
+26256                          Courtney Lynn Thompson   United States  27            Volleyball
+87                         Nelli Mikhaylovna Abramova    Soviet Union  24            Volleyball
+10440                           Sherri Frances Howard   United States  26             Athletics
+10492                                       Hu Yadong           China  19                Rowing
+10502                                       Huang Qun           China  15            Gymnastics
+10503                                  Huang Shanshan           China  18          Trampolining
+18974                     Magdolna "Magda" Nyri-Kovcs         Hungary  39               Fencing
+18994                               Estelle Nze Minko          France  24              Handball
+27302                           Franziska van Almsick         Germany  18              Swimming
+4769                                 Barbara Czekalla    East Germany  28            Volleyball
+9457                    Nina Adams Harmer (-Thompson)   United States  18              Swimming
+21182                                        Qiu Chen           China  21            Basketball
+27156                           Helen Lesley Upperton        Canada-2  30             Bobsleigh
+27197          Maiya Valentinovna Usova (-Orletskaya)        Russia-2  29        Figure Skating
+5332                            Helen Jennifer Denman       Australia  19              Swimming
+7063                           sa Nilla Maria Fischer          Sweden  32              Football
+7075                           Birgit Fischer-Schmidt    East Germany  18              Canoeing
+14385                                    Tonje Larsen          Norway  33              Handball
+26765                                   Lidia Trettel           Italy  28          Snowboarding
+7033             Sharon Evans Finneran (-Rittenhouse)   United States  18              Swimming
+10363           Hortncia Maria de Ftima Marcari Oliva          Brazil  36            Basketball
+27711                         Maria Valentina Vezzali           Italy  38               Fencing
+28650                            Mary Rebecca Whipple   United States  32                Rowing
+4864                       Georgeta Damian-Andrunache         Romania  32                Rowing
+10706                       Ene Franca Idoko (-Isaac)         Nigeria  23             Athletics
+12408                     Elvira Ramilevna Khasyanova          Russia  27 Synchronized Swimming
+14885                         Emily LeSueur (Porter-)   United States  23 Synchronized Swimming
+19806                Denise Parker (Knudson-, -Smith)   United States  14               Archery
+20240                           Birgit Peter (-Hndle)    East Germany  24                Rowing
+27715                       Natalia Va Dufresne Perea           Spain  31               Sailing
+25385                                    Jill Sudduth   United States  24 Synchronized Swimming
+29183                                 Tina Wunderlich         Germany  22              Football
+17070                            Osleidys Menndez Sez            Cuba  20             Athletics
+12603                                      Kim Jin-Ho     South Korea  22               Archery
+13864                            Jna Kubikov-Posnerov  Czechoslovakia  23            Gymnastics
+13913             Virpi Katriina Kuitunen (-Sarasvuo)         Finland  33  Cross Country Skiing
+13920                      Galina Alekseyevna Kukleva          Russia  29              Biathlon
+13928                     Galina Alekseyevna Kulakova    Soviet Union  25  Cross Country Skiing
+14048                           Amanda Maria Kurtovic          Norway  25              Handball
+14053                                    Kie Kusakabe           Japan  21                  Judo
+28408                   Judith "Jutta" Weber (-Meeuw)    West Germany  18              Swimming
+28455                                        Wei Yili         China-2  26             Badminton
+28597                           Isabelle Regina Werth         Germany  39         Equestrianism
+28701                                 Rosemarie Whyte         Jamaica  25             Athletics
+28814                                  Brooke Wilkins       Australia  30              Softball
+16867                                     Emma McKeon       Australia  22              Swimming
+898                               Emilie Hegh Arntzen          Norway  22              Handball
+10429             Wendy Louise Houvenaghel (McClean-)   Great Britain  33               Cycling
+19906                 Carly Rae Patterson (-Caldwell)   United States  16            Gymnastics
+20001                          Michelle Robyn Pearson       Australia  22              Swimming
+21285                               Bojana Radulovics         Hungary  27              Handball
+16928                        Jackie Amanda McWilliams   Great Britain  28                Hockey
+1258                            Jill Bakken (-Linder) United States-2  25             Bobsleigh
+5017                               Nicole Marie Davis   United States  26            Volleyball
+1082                    Sarah Lianne Ayton (-Dempsey)   Great Britain  24               Sailing
+14833                            Karen Lende O'Connor   United States  42         Equestrianism
+1573                       Anna Yevgenyevna Batyushko         Belarus  22         Weightlifting
+1015              Ingrid Auerswald-Lange (Brestrich-)    East Germany  22             Athletics
+1108                               Jennifer Lynn Azzi   United States  27            Basketball
+13201              Anastasiya Nikolayevna Kolesnikova          Russia  16            Gymnastics
+23145                              Stephanie Schiller         Germany  22                Rowing
+23202                      Bettina Schmidt (-Neumann)    East Germany  23                  Luge
+23226                            Sophie Diana Schmidt          Canada  24              Football
+23555                                     Karin Seick    West Germany  22              Swimming
+      Weight  Medal Year     ID Height Season
+17607     58 Silver 1984  81096    169 Summer
+9792      63   Gold 1996  47532    176 Summer
+24556     72   Gold 1968 112474    175 Summer
+24704     75 Bronze 1984 113155    182 Summer
+24718     77   Gold 1996 113242    181 Summer
+8497      60 Bronze 2004  42020    175 Summer
+16204     75 Silver 2016  74654    174 Summer
+15468     70   Gold 1960  71256    178 Summer
+10356     73 Silver 2012  49999    174 Summer
+10540     63   Gold 1968  50752    173 Summer
+10562     72 Bronze 2002  50859    175 Winter
+28590     73 Silver 1992 129717    183 Summer
+12363     63 Silver 2004  59009    170 Summer
+12494     57 Bronze 2016  59520    167 Summer
+12514     62   Gold 1988  59602    164 Winter
+12611     62   Gold 1988  60141    165 Summer
+12613     59 Bronze 2000  60156    174 Summer
+18799     83   Gold 1980  86664    177 Summer
+18903     69   Gold 1968  87160    176 Summer
+24176     80 Silver 1976 110887    170 Summer
+16870     60 Silver 2016  77716    180 Summer
+14531     65 Bronze 2016  67377    173 Summer
+20725     61   Gold 1976  95872    166 Summer
+20896     35 Silver 1988  96472    144 Summer
+10664     62 Silver 1984  51439    195 Summer
+5080      55   Gold 2000  25975    174 Summer
+17583     58 Silver 2002  80827    167 Winter
+15172     73 Bronze 2002  70084    165 Winter
+15197     73 Silver 2000  70248    183 Summer
+15213     56 Bronze 2004  70319    165 Summer
+15229     65 Silver 1956  70361    178 Summer
+14887     75 Bronze 2016  69027    183 Summer
+14888     59 Bronze 2000  69039    165 Summer
+17481     50 Silver 1984  80423    162 Summer
+17501     58 Bronze 2008  80507    168 Summer
+17594     53 Silver 2016  80970    173 Summer
+26256     66 Silver 2012 119895    170 Summer
+87        60 Silver 1964    547    171 Summer
+10440     53 Silver 1988  50331    170 Summer
+10492     77 Bronze 1988  50580    181 Summer
+10502     38 Bronze 1984  50639    150 Summer
+10503     48 Bronze 2004  50641    157 Summer
+18974     58 Silver 1960  87473    164 Summer
+18994     67 Silver 2016  87584    178 Summer
+27302     66 Silver 1996 124146    181 Summer
+4769      67 Silver 1980  24540    173 Summer
+9457      64   Gold 1964  46083    173 Summer
+21182     64 Bronze 1984  97779    181 Summer
+27156     73 Silver 2010 123386    175 Winter
+27197     45 Silver 1994 123586    160 Winter
+5332      70 Silver 1996  27618    182 Summer
+7063      68 Silver 2016  35526    176 Summer
+7075      69   Gold 1980  35550    172 Summer
+14385     72   Gold 2008  66847    184 Summer
+26765     47 Bronze 2002 121853    154 Winter
+7033      50 Silver 1964  35438    161 Summer
+10363     60 Silver 1996  50041    174 Summer
+27711     54 Bronze 2012 126257    164 Summer
+28650     48   Gold 2012 129959    160 Summer
+4864      75 Bronze 2008  25098    178 Summer
+10706     64 Bronze 2008  51630    162 Summer
+12408     57   Gold 2008  59225    163 Summer
+14885     55   Gold 1996  69025    170 Summer
+19806     59 Bronze 1988  91651    165 Summer
+20240     78   Gold 1988  93780    185 Summer
+27715     65 Silver 2004 126263    178 Summer
+25385     54   Gold 1996 116174    172 Summer
+29183     76 Bronze 2000 131871    177 Summer
+17070     80 Bronze 2000  78687    175 Summer
+12603     54 Bronze 1984  60052    164 Summer
+13864     55 Silver 1968  64524    164 Summer
+13913     65 Bronze 2010  64760    174 Winter
+13920     66 Bronze 2002  64781    176 Winter
+13928     57 Bronze 1968  64799    160 Winter
+14048     71 Bronze 2016  65199    175 Summer
+14053     57 Bronze 2000  65222    160 Summer
+28408     55 Bronze 1972 129139    169 Summer
+28455     68 Bronze 2008 129296    175 Summer
+28597     66 Silver 2008 129726    169 Summer
+28701     65 Bronze 2012 130113    174 Summer
+28814     72 Silver 2004 130467    175 Summer
+16867     60 Bronze 2016  77716    180 Summer
+898       78 Bronze 2016   5245    183 Summer
+10429     60 Silver 2008  50278    178 Summer
+19906     44   Gold 2004  92104    152 Summer
+20001     71 Bronze 1984  92521    183 Summer
+21285     71 Silver 2000  98232    179 Summer
+16928     65 Bronze 1992  77979    160 Summer
+1258      65   Gold 2002   7068    167 Winter
+5017      66 Silver 2008  25716    167 Summer
+1082      63   Gold 2004   6278    167 Summer
+14833     55 Bronze 2000  68693    168 Summer
+1573      69 Silver 2004   8657    164 Summer
+1015      58 Bronze 1980   5930    168 Summer
+1108      64   Gold 1996   6366    172 Summer
+13201     34 Silver 2000  62176    147 Summer
+23145     75 Bronze 2008 106876    182 Summer
+23202     85 Silver 1984 107076    176 Winter
+23226     71 Bronze 2012 107136    172 Summer
+23555     63 Bronze 1984 108306    182 Summer
+ [ reached 'max' / getOption("max.print") -- omitted 113750 rows ]
+> z<-sample(v,10)
+> View(z)
+> ?sample
+> z<-sample(v,10)
+> z<-sample(v,10,TRUE)
+> z<-v[sample(sample(nrow(v),10,TRUE)]
+Error: unexpected ']' in "z<-v[sample(sample(nrow(v),10,TRUE)]"
+> z<-v[(sample(nrow(v),10,TRUE)]
+Error: unexpected ']' in "z<-v[(sample(nrow(v),10,TRUE)]"
+> z<-(sample(nrow(v),10,TRUE)
++ ثطهف
+Error: unexpected symbol in:
+"z<-(sample(nrow(v),10,TRUE)
+ثطهف"
+> z<-v[(sample(nrow(v),10,TRUE),]
+Error: unexpected ',' in "z<-v[(sample(nrow(v),10,TRUE),"
+> z<-v[(sample(nrow(v),10),]
+Error: unexpected ',' in "z<-v[(sample(nrow(v),10),"
+> z<-v[(sample(nrow(v),10)),]
+> View(v)
+> v[order(v$Age),]
+          ID                                         Name Sex Age Height Weight          Team
+6408   32552           Kornelia Ender (-Matthes, -Grummt)   F  13    172     59  East Germany
+8281   41040                   Gina Elena Gogean (-Groza)   F  13    150     40       Romania
+6407   32552           Kornelia Ender (-Matthes, -Grummt)   F  13    172     59  East Germany
+7517   37398                                   Fu Mingxia   F  13    160     48         China
+18599  85771                                     Nian Yun   F  13    168     61         China
+12671  60384                                   Kim Yun-Mi   F  13    160     48   South Korea
+4489   23192         Robin Marie Corsiglia (-Scholefield)   F  13    157     45        Canada
+5144   26731           Donna Elizabeth de Varona (-Pinto)   F  13    168     61 United States
+6406   32552           Kornelia Ender (-Matthes, -Grummt)   F  13    172     59  East Germany
+19806  91651             Denise Parker (Knudson-, -Smith)   F  14    165     59 United States
+25336 115870               Kerri Allyson Strug (-Fischer)   F  14    142     37 United States
+22519 103722                         Sylvia Eliina Ruuska   F  14    173     63 United States
+19926  92146                           Simona Puca (-Rus)   F  14    150     42       Romania
+17565  80754          Dominique Helena Moceanu (-Canales)   F  14    139     34 United States
+4364   22570                Nadia Elena Comneci (-Conner)   F  14    162     45       Romania
+28366 128984   Lillian Debra "Pokey" Watson (-Richardson)   F  14    175     66 United States
+20039  92674          Susan Jane "Sue" Pedersen (-Pankey)   F  14    175     70 United States
+21359  98660                      Mara Teresa Ramrez Gmez   F  14    171     62        Mexico
+8691   42905                       Cristina Elena Grigora   F  14    156     44       Romania
+6252   31565                          Krisztina Egerszegi   F  14    174     57       Hungary
+6394   32500                     Sirvart "Silva" Emirzyan   F  14    158     42  Soviet Union
+7002   35292     Mariya Yevgenyevna Filatova (-Kurbatova)   F  14    136     30  Soviet Union
+6253   31565                          Krisztina Egerszegi   F  14    174     57       Hungary
+13170  62133                            Claudia Anne Kolb   F  14    170     61 United States
+16349  75395                         Barbara Ann Marshall   F  14    175     59 United States
+20040  92674          Susan Jane "Sue" Pedersen (-Pankey)   F  14    175     70 United States
+11005  52963                                Kyoko Iwasaki   F  14    159     50         Japan
+27300 124146                        Franziska van Almsick   F  14    181     66       Germany
+2145   11223                                   Bi Wenjing   F  14    142     35         China
+20042  92674          Susan Jane "Sue" Pedersen (-Pankey)   F  14    175     70 United States
+27299 124146                        Franziska van Almsick   F  14    181     66       Germany
+28365 128984   Lillian Debra "Pokey" Watson (-Richardson)   F  14    175     66 United States
+17733  81827              Karen Lynne Moras (-Stephenson)   F  14    168     53     Australia
+18777  86555              Carola Nitschke (-Beraktschjan)   F  14    172     62  East Germany
+4366   22570                Nadia Elena Comneci (-Conner)   F  14    162     45       Romania
+19928  92146                           Simona Puca (-Rus)   F  14    150     42       Romania
+1656    9034                    Amanda Ray Beard (-Brown)   F  14    173     59 United States
+7763   38451                         Nancy Ellen Garapick   F  14    168     54        Canada
+4367   22570                Nadia Elena Comneci (-Conner)   F  14    162     45       Romania
+17775  82042                 Sandra Anne Morgan (-Beavis)   F  14    167     67     Australia
+7623   37789                               Georgeta Gabor   F  14    142     37       Romania
+16957  78100                          Krisztina Medveczky   F  14    160     49       Hungary
+24543 112395                                Shannon Smith   F  14    174     63        Canada
+20041  92674          Susan Jane "Sue" Pedersen (-Pankey)   F  14    175     70 United States
+27298 124146                        Franziska van Almsick   F  14    181     66       Germany
+1658    9034                    Amanda Ray Beard (-Brown)   F  14    173     59 United States
+1657    9034                    Amanda Ray Beard (-Brown)   F  14    173     59 United States
+7762   38451                         Nancy Ellen Garapick   F  14    168     54        Canada
+22518 103722                         Sylvia Eliina Ruuska   F  14    173     63 United States
+9321   45493                                      Han Xue   F  14    177     68         China
+29067 131462                        Carolyn Virginia Wood   F  14    167     60 United States
+29068 131462                        Carolyn Virginia Wood   F  14    167     60 United States
+27319 124192                  Cornelia "Conny" van Bentum   F  14    181     76   Netherlands
+4365   22570                Nadia Elena Comneci (-Conner)   F  14    162     45       Romania
+4368   22570                Nadia Elena Comneci (-Conner)   F  14    162     45       Romania
+27301 124146                        Franziska van Almsick   F  14    181     66       Germany
+28635 129891 Gabriele Wetzko (-Hartung, -Frischke, -Khne)   F  14    171     60  East Germany
+19927  92146                           Simona Puca (-Rus)   F  14    150     42       Romania
+20725  95872                     Andrea Pollack (-Pinske)   F  15    166     61  East Germany
+20896  96472                             Gabriela Potorac   F  15    144     35       Romania
+10502  50639                                    Huang Qun   F  15    150     38         China
+22430 103362          Melita (-Melitta) Ruhn (-Fleischer)   F  15    156     42       Romania
+9820   47618   Sonja Henie (-Topping, -Gardiner, -Onstad)   F  15    155     45        Norway
+8251   40877                                  Go Gi-Hyeon   F  15    168     58   South Korea
+20723  95872                     Andrea Pollack (-Pinske)   F  15    166     61  East Germany
+27142 123353                   Teodora Ungureanu (-Cepoi)   F  15    150     44       Romania
+13514  63367                                   gnes Kovcs   F  15    178     63       Hungary
+19405  89505                        Alejandra Orozco Loza   F  15    156     47        Mexico
+8246   40866                                  Maxi Gnauck   F  15    148     33  East Germany
+21758 100549       Michelle Richardson Armengol (-Ahlers)   F  15    165     48 United States
+15240  70400           Tara Kristen Lipinski (-Kapostasy)   F  15    147     36 United States
+1126    6430                    Shirley Frances Babashoff   F  15    178     67 United States
+20724  95872                     Andrea Pollack (-Pinske)   F  15    166     61  East Germany
+4754   24456                                 Laura Cutina   F  15    143     36       Romania
+7205   36154                              Arianna Fontana   F  15    164     63         Italy
+15595  71895                                       Lu Bin   F  15    165     53         China
+17978  83036                                  Alina Mller   F  15    162     50   Switzerland
+8245   40866                                  Maxi Gnauck   F  15    148     33  East Germany
+5659   28981                       Aurelia Dobre (-Mofid)   F  15    146     42       Romania
+15600  71914                                        Lu Li   F  15    136     30         China
+29369 132568                                   Yang Yilin   F  15    150     35         China
+27141 123353                   Teodora Ungureanu (-Cepoi)   F  15    150     44       Romania
+17359  79937  Shannon Lee Miller (-Phillips, -Falconetti)   F  15    147     39 United States
+5864   29879                               Gabriela Drgoi   F  15    146     37       Romania
+25249 115541                Sharon Marie Stouder (-Clark)   F  15    173     61 United States
+20895  96472                             Gabriela Potorac   F  15    144     35       Romania
+20403  94315     Kimberley Marie "Kim" Peyton (-McDonald)   F  15    178     64 United States
+29370 132568                                   Yang Yilin   F  15    150     35         China
+14620  67746           Kathleen Genevieve "Katie" Ledecky   F  15    183     73 United States
+8250   40877                                  Go Gi-Hyeon   F  15    168     58   South Korea
+      Year Season                     Sport  Medal
+6408  1972 Summer                  Swimming Silver
+8281  1992 Summer                Gymnastics Silver
+6407  1972 Summer                  Swimming Silver
+7517  1992 Summer                    Diving   Gold
+18599 1996 Summer                  Swimming Silver
+12671 1994 Winter Short Track Speed Skating   Gold
+4489  1976 Summer                  Swimming Bronze
+5144  1960 Summer                  Swimming   Gold
+6406  1972 Summer                  Swimming Silver
+19806 1988 Summer                   Archery Bronze
+25336 1992 Summer                Gymnastics Bronze
+22519 1956 Summer                  Swimming Silver
+19926 1984 Summer                Gymnastics Bronze
+17565 1996 Summer                Gymnastics   Gold
+4364  1976 Summer                Gymnastics   Gold
+28366 1964 Summer                  Swimming   Gold
+20039 1968 Summer                  Swimming Silver
+21359 1968 Summer                  Swimming Bronze
+8691  1980 Summer                Gymnastics Silver
+6252  1988 Summer                  Swimming Silver
+6394  1980 Summer                    Diving Silver
+7002  1976 Summer                Gymnastics   Gold
+6253  1988 Summer                  Swimming   Gold
+13170 1964 Summer                  Swimming Silver
+16349 1972 Summer                  Swimming   Gold
+20040 1968 Summer                  Swimming   Gold
+11005 1992 Summer                  Swimming   Gold
+27300 1992 Summer                  Swimming Bronze
+2145  1996 Summer                Gymnastics Silver
+20042 1968 Summer                  Swimming   Gold
+27299 1992 Summer                  Swimming Silver
+28365 1964 Summer                  Swimming   Gold
+17733 1968 Summer                  Swimming Bronze
+18777 1976 Summer                  Swimming   Gold
+4366  1976 Summer                Gymnastics Bronze
+19928 1984 Summer                Gymnastics   Gold
+1656  1996 Summer                  Swimming Silver
+7763  1976 Summer                  Swimming Bronze
+4367  1976 Summer                Gymnastics   Gold
+17775 1956 Summer                  Swimming   Gold
+7623  1976 Summer                Gymnastics Silver
+16957 1972 Summer                Gymnastics Bronze
+24543 1976 Summer                  Swimming Bronze
+20041 1968 Summer                  Swimming Silver
+27298 1992 Summer                  Swimming Bronze
+1658  1996 Summer                  Swimming   Gold
+1657  1996 Summer                  Swimming Silver
+7762  1976 Summer                  Swimming Bronze
+22518 1956 Summer                  Swimming Bronze
+9321  1996 Summer                  Swimming Bronze
+29067 1960 Summer                  Swimming   Gold
+29068 1960 Summer                  Swimming   Gold
+27319 1980 Summer                  Swimming Bronze
+4365  1976 Summer                Gymnastics Silver
+4368  1976 Summer                Gymnastics   Gold
+27301 1992 Summer                  Swimming Silver
+28635 1968 Summer                  Swimming Silver
+19927 1984 Summer                Gymnastics   Gold
+20725 1976 Summer                  Swimming   Gold
+20896 1988 Summer                Gymnastics Silver
+10502 1984 Summer                Gymnastics Bronze
+22430 1980 Summer                Gymnastics Silver
+9820  1928 Winter            Figure Skating   Gold
+8251  2002 Winter Short Track Speed Skating   Gold
+20723 1976 Summer                  Swimming Silver
+27142 1976 Summer                Gymnastics Silver
+13514 1996 Summer                  Swimming Bronze
+19405 2012 Summer                    Diving Silver
+8246  1980 Summer                Gymnastics Bronze
+21758 1984 Summer                  Swimming Silver
+15240 1998 Winter            Figure Skating   Gold
+1126  1972 Summer                  Swimming Silver
+20724 1976 Summer                  Swimming   Gold
+4754  1984 Summer                Gymnastics   Gold
+7205  2006 Winter Short Track Speed Skating Bronze
+15595 1992 Summer                  Swimming Silver
+17978 2014 Winter                Ice Hockey Bronze
+8245  1980 Summer                Gymnastics Silver
+5659  1988 Summer                Gymnastics Silver
+15600 1992 Summer                Gymnastics Silver
+29369 2008 Summer                Gymnastics   Gold
+27141 1976 Summer                Gymnastics Silver
+17359 1992 Summer                Gymnastics Bronze
+5864  2008 Summer                Gymnastics Bronze
+25249 1964 Summer                  Swimming   Gold
+20895 1988 Summer                Gymnastics Silver
+20403 1972 Summer                  Swimming   Gold
+29370 2008 Summer                Gymnastics Bronze
+14620 2012 Summer                  Swimming   Gold
+8250  2002 Winter Short Track Speed Skating Silver
+ [ reached 'max' / getOption("max.print") -- omitted 113760 rows ]
+> View(v)
+>                                                                                                     v<-v[order(v$Age),]
+> View(v)
